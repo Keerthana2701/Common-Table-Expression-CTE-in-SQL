@@ -1,8 +1,8 @@
-Query:A Manager decided that the top 10 orders per month are actually outliers that need to be clipped out of our data before doing meaningful analysis.
+/* Query:A Manager decided that the top 10 orders per month are actually outliers that need to be clipped out of our data before doing meaningful analysis.
 
 Further, she would like the sum of sales AND purchases (minus these "outliers") listed side by side, by month.
-******************************
-Solution:
+*******************************/
+
 
 
 WITH Sales AS
